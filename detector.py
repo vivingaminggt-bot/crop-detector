@@ -3,7 +3,7 @@ import base64
 import pandas as pd
 from datetime import datetime
 
-API_KEY = "your_api_key_here"   # paste your key here
+API_KEY = "2b10peSYn6unlSCkDTXVAubihO"   # paste your key here
 API_URL = "https://my-api.plantnet.org/v2/identify/all"
 
 # ── Encode image to base64 ────────────────────────
