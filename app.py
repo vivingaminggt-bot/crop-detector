@@ -11,43 +11,6 @@ st.set_page_config(
     page_icon  = "🌿",
     layout     = "wide"
 )
-st.markdown("""
-<style>
-    .stApp {
-        background-color: #1B2A1E;
-    }
-    h1, h2, h3 {
-        color: #E8DCC4 !important;
-        font-family: 'Georgia', serif;
-    }
-    [data-testid="stMetricValue"] {
-        color: #8FBC8F;
-    }
-    [data-testid="stMetricLabel"] {
-        color: #C2B280;
-    }
-    .stButton button {
-        background-color: #6B8E4E;
-        color: white;
-        border-radius: 8px;
-        border: none;
-        padding: 0.5em 1.5em;
-        font-weight: 600;
-    }
-    .stButton button:hover {
-        background-color: #557A3D;
-    }
-    [data-testid="stSidebar"] {
-        background-color: #142016;
-    }
-    div[data-testid="stFileUploader"] {
-        border: 2px dashed #6B8E4E;
-        border-radius: 10px;
-        padding: 1em;
-    }
-</style>
-""", unsafe_allow_html=True)
-
 st.title("🌾 AI Crop Disease Detector")
 st.write("Upload a crop leaf image to identify the plant and health status.")
 
